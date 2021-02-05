@@ -1,0 +1,18 @@
+#pragma once
+#include <iostream>
+#include <limits.h>
+#include "under_and_over_flow_examples.h"
+
+void under_and_over_flow_examples() {
+	
+	int variable = INT_MIN;
+	std::cout << "Min int     = " << variable << std::endl;
+	variable--;
+	std::cout << "Min int - 1 = " << variable << std::endl;
+	
+	
+	variable = INT_MAX;
+	std::cout << "Max int     = " << variable << std::endl;
+	variable++;
+	std::cout << "Max int + 1 = " << variable << std::endl;
+}
