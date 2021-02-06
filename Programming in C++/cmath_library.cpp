@@ -1,5 +1,6 @@
 #pragma once
-#include "cmath_library_example.h"
+
+#include "cmath_library.h"
 #define PI 3.14159265
 
 void cmath_library_example() {

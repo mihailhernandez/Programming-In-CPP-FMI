@@ -1,3 +1,7 @@
+#pragma once
+
+#include "biggest_common_divisor.h"
+
 int biggest_common_divisor_recursive(int a, int b) {
 
 	if (a == b) {
